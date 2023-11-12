@@ -1,0 +1,50 @@
+
+/* CSS File */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Add this style to ensure equal height for the product cards */
+  .product {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  /* Add this style to make the image cover its container */
+  .productImage {
+    object-fit: cover;
+    height: 100%;
+  }
+  
+.product {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    background-color: #f9f9f9; /* لون خلفية خفيف */
+  }
+  
+
+  
+  .product-info {
+    margin: 5px 0;
+  }
+  
+  .discount {
+    color: #e44d26; /* لون الخصم */
+    font-weight: bold;
+  }
+  
+  .price {
+    color: #333; /* لون السعر */
+    font-weight: bold;
+  }
+  
+  .total {
+    color: #2ecc71; /* لون الإجمالي */
+    font-weight: bold;
+  }
+  
