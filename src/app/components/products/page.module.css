@@ -1,0 +1,118 @@
+/* Products.module.css */
+
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    color: #007bff;
+    margin-bottom: 8px;
+  }
+  
+  .brand {
+    font-style: italic;
+    margin-bottom: 8px;
+  }
+  
+  .thumbnail {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 12px;
+  }
+  
+  .category {
+    color: #28a745;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .description {
+    color: #6c757d;
+  }
+  
+  /*posts Detalis*/
+  /* productDetails.css */
+/* ProductDetails.module.css */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.productInfo {
+  flex: 1;
+  padding: 20px;
+  background-color: #f8f9fa; /* Light gray background */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.productImage {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.productImage img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Introduce new colors */
+.container {
+  background-color: #eceff1; /* Light blue background */
+}
+
+.productInfo {
+  background-color: #fff; /* White background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.productImage {
+  background-color: #fff; /* White background */
+}
+
+/* You can customize the colors further based on your preferences */
+/* productInfo.module.css */
+
+.productInfo {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+}
+
+.productInfo {
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.productInfo h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #6136d8;
+}
+
+.productInfo p {
+  margin: 10px 0;
+  color: #666;
+}
